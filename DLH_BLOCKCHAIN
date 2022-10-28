@@ -91,7 +91,7 @@ public class VQT_Chain {
         System.out.println(blockchainJson);
     }
 
-    ///65: Kiểm tra tính toàn vẹn của Blockchain, bằng cách tạo phương thức isChainValid trong lớp NQV_Chain
+    ///65: Kiểm tra tính toàn vẹn của Blockchain, bằng cách tạo phương thức isChainValid trong lớp DLH_Chain
     public static Boolean isChainValid() {
         Block currentBlock;
         Block previousBlock;
